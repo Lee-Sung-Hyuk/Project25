@@ -4,7 +4,7 @@
 
 
 
-int main()
+int main(void)
 {
 	double change(int a);
 	double inch;
@@ -12,7 +12,7 @@ int main()
 	scanf("%lf", &inch);
 	printf("%f인치는 %.2fcm입니다.\n", inch, change(inch));
 
-	return 0;
+	
 }
 
 double change(int a)
